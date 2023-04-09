@@ -1,0 +1,392 @@
+
+/*********************** header ******************* */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo i {
+    font-size: 3rem;
+    color: #A41034;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #A41034;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 2.5s ease;
+  }
+  nav ul li{
+    transition: transform 2.5s ease;
+   
+  }
+  nav ul li:hover {
+    color: #a41035ab;
+    transform: scale(1.1);
+
+  }
+  /**********************/
+  /******************** home************* */
+  .harvard-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+     url("imgPro/Harvard-University.jpg");
+   
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .harvard-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #A41034;
+  }
+  
+  .harvard-section p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A41034;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 10px  #333;
+    transition: transform 2.5s ease;
+  }
+  
+  .button:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  /*****************************/
+  /*********************** about************************ */
+  .harvard-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+      url("imgPro/Harvard-University.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.2),
+      0 0 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  .harvard-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #A41034;
+  }
+  
+  .harvard-section p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+      url("imgPro/download.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #F7F7F7;
+    padding: 50px;
+  }
+  
+  .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(164, 16, 52, 1), 0 0 20px 10px rgb(3, 3, 3);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+   
+  }
+  
+  .card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A41034;
+    color: #fff;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+  }
+  
+  .card-icon i {
+    font-size: 3rem;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-list {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .location-card {
+    margin-right: 20px;
+  }
+  
+  .students-card {
+    margin-right: 20px;
+  }
+  
+  .features-card {
+    margin-right: 0;
+  }
+/************/
+/* ************where*********** */
+
+  
+
+.location-section {
+  background-color: #A41034;
+  background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 50px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.info-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.info-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.info-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/************************/
+/******courses***************/
+.h2co{
+  color: #fff;
+}
+.courses-section {
+  background-color: #A41034;
+  background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 50px;
+  margin: 50px 0;
+}
+
+.courses-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.course:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.course i {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  color: #a41034;
+}
+
+.course h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.course p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.course a {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #a41034;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.course a:hover {
+  color: #333;
+}
+
+.course a i {
+  margin-left: 5px;
+ 
+}
+/***************************************/
+/**************contact*************************/
+.contact-section {
+  margin: 50px 0;
+  background-color: #A41034;
+  background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 50px;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  resize: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #a41034;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #721c24;
+}
+.mo{
+  text-decoration: none; 
+  color: #A41034;
+  
+}
